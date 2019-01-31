@@ -1,0 +1,189 @@
+@charset "UTF-8";
+* {
+  tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: transparent; }
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  font-family: '微软雅黑'; }
+
+ol,
+ul {
+  list-style: none; }
+
+fieldset,
+img {
+  border: 0; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body,
+small,
+sup,
+sub,
+button,
+input,
+textarea,
+select {
+  font-size: 12px;
+  font-family: "微软雅黑"; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal; }
+
+address,
+cite,
+dfn,
+em,
+var {
+  font-size: normal; }
+
+sub,
+sup {
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -3px; }
+
+sub {
+  bottom: -3px; }
+
+button {
+  padding: 5px 10px;
+  overflow: visible;
+  outline: none; }
+
+textarea {
+  resize: none; }
+
+a {
+  text-decoration: none;
+  outline: none; }
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: 0 !important; }
+
+a,
+button,
+input,
+optgroup,
+select,
+textarea {
+  -webkit-tap-highlight-color: transparent; }
+
+a,
+img {
+  -webkit-touch-callout: none; }
+
+i,
+p,
+a {
+  word-break: break-all;
+  vertical-align: middle; }
+
+strong,
+em,
+b,
+i {
+  font-style: normal;
+  font-weight: normal; }
+
+input,
+select,
+textarea {
+  outline: none;
+  border: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent));
+  background-image: -webkit-linear-gradient(transparent, transparent);
+  background-image: linear-gradient(transparent, transparent); }
+
+html {
+  -webkit-text-size-adjust: none;
+  overflow-x: hidden;
+  width: 100%; }
+
+body {
+  margin: 0 auto;
+  color: #454545;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  background: white; }
+
+.clearfix:before {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #FFFFFF; }
+
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #FFFFFF; }
+
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #FFFFFF; }
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #FFFFFF; }
